@@ -1,0 +1,24 @@
+.header {
+  margin: 20px 0;
+  &__container {
+
+  }
+  &__inner {
+    position: relative;
+    border-radius: var(--border-radius-lg);
+    width: 100%;
+    padding: var(--padding-2xl);
+    background-color: var(--color-white);
+    box-shadow: var(--shadow-lg);
+  }
+
+  &__logo {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color-font);
+    font-size: var(--font-xxl);
+    font-weight: 600;
+  }
+}
